@@ -2,6 +2,7 @@
     "name": "islam/eraamvc",
     "type": "libarary",
     "license": "MIT",
+     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Islam\\Eraamvc\\": "src/"
@@ -13,5 +14,7 @@
             "email": "dev.mohamedamr@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^5"
+    }
 }
